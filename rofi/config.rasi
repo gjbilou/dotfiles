@@ -1,0 +1,22 @@
+configuration {
+	modes: "window,drun,keys";
+	font: "FiraCode Nerd Font Mono 12";
+	show-icons: true;
+	icon-theme: "Papirus";
+	sort: true;
+	cycle: false;
+	matching: "fuzzy";
+	scroll-method: 1;
+	normalize-match: true;
+	steal-focus: true;
+	disable-history: true;
+}
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+
+window {
+    location:   center;
+    width:      700;
+}
+
